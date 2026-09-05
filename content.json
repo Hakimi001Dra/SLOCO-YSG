@@ -1,0 +1,458 @@
+{
+  "site": {
+    "title": "SLOCO–YSG | Office of the Senior Liaison Officer to the Governor of Yobe State",
+    "description": "Office of the Senior Liaison Officer to the Executive Governor of Yobe State on Community Outreach (SLOCO-YSG). Bridging government and the grassroots through education, health, humanitarian relief and youth empowerment.",
+    "brandName": "SLOCO–YSG",
+    "brandSub": "Yobe State · Community Outreach",
+    "logo": "logo-crop.png",
+    "favicon": "favicon.png"
+  },
+  "hero": {
+    "tag": "File No. SLOCO–YSG / 2026 · Office of the Senior Liaison Officer to the Governor",
+    "titleLine1": "A Yobe",
+    "titleLine2": "for all.",
+    "subtitle": "We are the bridge between Government House and the grassroots — carrying His Excellency Hon. (Dr.) Mai Mala Buni's vision of an inclusive Yobe into classrooms, clinics and communities across the state.",
+    "image": "hero-outreach.jpg",
+    "ctaPrimary": {
+      "label": "View the 13 programs",
+      "href": "#programs"
+    },
+    "ctaGhost": {
+      "label": "Read the impact report",
+      "href": "#report"
+    },
+    "stats": [
+      {
+        "label": "Community projects delivered",
+        "value": 13,
+        "suffix": ""
+      },
+      {
+        "label": "Direct beneficiaries reached",
+        "value": 3500,
+        "suffix": "+"
+      },
+      {
+        "label": "Qur'ans distributed",
+        "value": 250,
+        "suffix": ""
+      },
+      {
+        "label": "INSPIRE Gashua admission rate",
+        "value": 87,
+        "suffix": "%"
+      }
+    ]
+  },
+  "about": {
+    "eyebrow": "01 — About the Office",
+    "heading": "Government felt at the grassroots.",
+    "lede": "The Office of the Senior Liaison Officer to the Governor of Yobe State on Community Outreach (SLOCO–YSG) exists as a vital bridge between government and its people — ensuring that policies, programs and initiatives are not just heard, but felt at the grassroots.",
+    "body": "We are committed to meaningful dialogue, responsive action, and the design of impactful projects that uplift every citizen and community across Yobe State. Above all, the Office proudly supports the vision of His Excellency, the Executive Governor of Yobe State, Hon. (Dr.) Mai Mala Buni, CON, in building \"a Yobe for all\" — a united, inclusive and forward-looking state where opportunity is shared, talent is nurtured, and every citizen takes pride in contributing to our collective future.",
+    "mvv": [
+      {
+        "title": "Mission",
+        "text": "To connect people with government through inclusive engagement, impactful programs and empowered communities — boosting local economies and fostering trust for lasting progress across Yobe State.",
+        "icon": "home"
+      },
+      {
+        "title": "Vision",
+        "text": "A Yobe where every young dream is seen, all skills and talents are valued, and every citizen feels pride, purpose and responsibility in building the state they call home.",
+        "icon": "target"
+      },
+      {
+        "title": "Core Values",
+        "text": "Service to Humanity · Inclusivity · Partnership · Sustainability",
+        "icon": "shield"
+      }
+    ],
+    "figure": {
+      "image": "gal-officer-2.jpg",
+      "name": "Umar, Muhammad Danfulani",
+      "suffix": "SDMSS",
+      "role": "Senior Liaison Officer to the Executive Governor of Yobe State, Hon. (Dr.) Mai Mala Buni, CON, on Community Outreach",
+      "quote": "I carry not just a title, but a mandate to serve with integrity, lead with humility, and expand the boundaries of impact."
+    }
+  },
+  "ledger": {
+    "eyebrow": "02 — Impact at a Glance",
+    "heading": "Thirteen projects. One year. Measured at every stop.",
+    "lede": "Through strategic partnerships with civil society organisations, Yobe State MDAs, community leaders and development partners, the Office executed 13 impactful projects across communities in Yobe State — within a single year in office.",
+    "rows": [
+      {
+        "figure": "3,500+",
+        "desc": "Direct beneficiaries reached, with a further <strong>1,700</strong> indirect beneficiaries across host communities."
+      },
+      {
+        "figure": "250 · 470",
+        "desc": "Copies of the Holy Qur'an and reading materials distributed to Almajiri learners and Tahfiz orphans."
+      },
+      {
+        "figure": "115",
+        "desc": "Students trained and sponsored for JAMB registration; <strong>42</strong> received full scholarships under INSPIRE Gashua 2025."
+      },
+      {
+        "figure": "50",
+        "desc": "Youth delegates sponsored for capacity-building and networking at TEDxKatagum and TEDxBauchi 2025."
+      },
+      {
+        "figure": "430",
+        "desc": "Almajiris, orphans and households supported with food relief — 350 individuals and 80 households."
+      },
+      {
+        "figure": "100",
+        "desc": "Locust bean (Doruwa) tree seedlings planted in Damaturu to restore land and greenery."
+      }
+    ]
+  },
+  "featured": {
+    "eyebrow": "Latest Outreach",
+    "heading": "Pathway to Hope Community Outreach",
+    "lede": "A pilot intervention implemented in a Fulani community in Jakusko Local Government Area — confronting one of Nigeria's most pressing challenges: the growing number of out-of-school children.",
+    "body": "Delivered in partnership with the Near Foundation, the outreach brought together academics, medical professionals, security personnel, educators, business leaders, community health workers, traditional leaders and volunteers — to promote school enrolment, health awareness and the role of education in building peaceful, prosperous communities. Food items and meat were distributed to over 300 community members in the spirit of compassion and solidarity.",
+    "callout": "Among the volunteers was Muhammad Rabiu, an INSPIRE Gashua 2025 beneficiary who scored <strong>314</strong> in the 2026 UTME — living proof, organisers say, that the right guidance unlocks true potential.",
+    "linkLabel": "Read the full documentary report →",
+    "linkHref": "#report",
+    "images": [
+      "gal-officer-1.jpg",
+      "gal-boy-stick.jpg",
+      "gal-relief.jpg"
+    ]
+  },
+  "programs": {
+    "eyebrow": "03 — The Register",
+    "heading": "Thirteen strategic community outreach projects",
+    "lede": "Every entry below is drawn from the Office's own field documentation — <em>Impact Beyond Office</em>. Tap a row to open the file.",
+    "categories": [
+      "Education",
+      "Humanitarian",
+      "Youth Development",
+      "Health",
+      "Environment",
+      "Partnership"
+    ],
+    "items": [
+      {
+        "id": "p01",
+        "num": "01",
+        "title": "INSPIRE Gashua 2025",
+        "tag": "Education",
+        "tags": [
+          "Education",
+          "Youth Development"
+        ],
+        "body": "<p>A collaborative initiative supporting the Governor's education and youth-empowerment vision. In partnership with Pinnacle Hive Limited, Khairukum Professionals, AIA Foundation, SID Charitable Foundation and others, the initiative delivered a two-day free JAMB orientation and career-counselling programme for 115 students, followed by three months of tutorials, mentorship, weekend coaching and CBT practice.</p><p>42 top-performing students received full JAMB registration sponsorship. <strong>87% of participating students secured admission into tertiary institutions</strong> — among them Rabiu Muhammad Muhammad, who scored 314 in JAMB (English 56, Physics 98, Biology 71, Chemistry 89).</p>"
+      },
+      {
+        "id": "p02",
+        "num": "02",
+        "title": "Food Distribution with AIA Foundation, Damaturu",
+        "tag": "Humanitarian",
+        "tags": [
+          "Humanitarian"
+        ],
+        "body": "<p>In alignment with the vision of building \"a Yobe that works for all\", the Office partnered with the AIA (Ali Ibrahim Abbas) Foundation to coordinate a food distribution exercise in Damaturu — supporting grassroots mobilisation and community engagement.</p><p>Meals were distributed directly to vulnerable and underserved households, working closely with community leaders to ensure a smooth, inclusive and impactful sharing process that reached those most in need.</p>"
+      },
+      {
+        "id": "p03",
+        "num": "03",
+        "title": "Yobe Changemakers Fellowship",
+        "tag": "Youth Development",
+        "tags": [
+          "Youth Development"
+        ],
+        "body": "<p>In collaboration with Sahel Multi-links Global Concept Limited and LexNova Law Firm, the Office sponsored 23 outstanding young leaders from Yobe State to attend TEDxKatagum in Azare, Bauchi State, under the theme \"Reclaiming the Future.\"</p><p>Delegates from medicine, law, engineering, education, arts, media and technology engaged with TEDxBauchi and TEDxKatagum volunteer teams and Dr Aisha Kabir, Senior Special Assistant to the President. Delegate Muhammad Bala Jarma won a competitive challenge at the event, earning ₦100,000 and a mentorship placement with renowned photographer Bayo Omoboriowo.</p>"
+      },
+      {
+        "id": "p04",
+        "num": "04",
+        "title": "Almajiri & Orphans Outreach Programme, Gashua",
+        "tag": "Humanitarian",
+        "tags": [
+          "Humanitarian",
+          "Education"
+        ],
+        "body": "<p>A grassroots humanitarian project supporting vulnerable children and strengthening inclusive community development in Gashua. With support from the AIA Foundation, 150 Almajiri children and orphans were directly supported with copies of the Holy Qur'an, educational writing materials and food items.</p><p>A virtual session with multimedia journalist Abubakar Said Saad of DW (Deutsche Welle) Germany encouraged the students to believe in themselves — reframing orphanhood as \"the new definition of gift and hope.\"</p>"
+      },
+      {
+        "id": "p05",
+        "num": "05",
+        "title": "Community Care Outreach: Food Assistance to Almajiri Learners",
+        "tag": "Humanitarian",
+        "tags": [
+          "Humanitarian"
+        ],
+        "body": "<p>Cattle generously facilitated by the Near Foundation, in partnership with the NTIC Alumni, were prepared and distributed to Almajiri learners <em>and their teachers</em> — recognising the vital role teachers play in nurturing, guiding and educating the children under their care.</p><p>A special session of prayers was held during the programme in appreciation of the leadership of Hon. (Dr.) Mai Mala Buni, CON, for continued peace and prosperity across Yobe State.</p>"
+      },
+      {
+        "id": "p06",
+        "num": "06",
+        "title": "Community Faith Outreach: Qur'an Support for Tahfiz Orphans, Ngelzarma",
+        "tag": "Education",
+        "tags": [
+          "Education",
+          "Humanitarian"
+        ],
+        "body": "<p>In partnership with Nusret and the AIA Foundation, copies of the Holy Qur'an were distributed to Tahfiz orphans in Ngelzarma — supporting both their spiritual and educational development while combining care, encouragement and mentorship.</p><p>The outreach reflects a broader vision of inclusive development, where no child is left behind spiritually, educationally or socially.</p>"
+      },
+      {
+        "id": "p07",
+        "num": "07",
+        "title": "SLOCO × Yobe SEMA: Support for Almajiri Children, Gashua",
+        "tag": "Humanitarian",
+        "tags": [
+          "Humanitarian"
+        ],
+        "body": "<p>A collaboration with the Yobe State Emergency Management Agency (SEMA) to improve the welfare and nutrition of Almajiri learners across the state. SLOCO facilitated the provision of vegetable oil to help students prepare balanced meals, generously donated by Dr Muhammad Goje, Executive Secretary of SEMA, Yobe State.</p>"
+      },
+      {
+        "id": "p08",
+        "num": "08",
+        "title": "Engaging BIORTC Experts on Kidney Disease Findings",
+        "tag": "Health",
+        "tags": [
+          "Health"
+        ],
+        "body": "<p>Supporting the Governor's kidney-health research initiative, the Office engaged experts from BIORTC to review recent findings on kidney disease — translating research insights into information communities can understand in their native languages.</p><p>The engagement bridges the gap between scientific research and community awareness, empowering citizens with knowledge that can improve household well-being across Yobe State.</p>"
+      },
+      {
+        "id": "p09",
+        "num": "09",
+        "title": "Restoring Land: Locust Bean Trees (Doruwa) Project",
+        "tag": "Environment",
+        "tags": [
+          "Environment"
+        ],
+        "body": "<p>100 locust bean tree seedlings, facilitated by Sadiq Muhammad, CEO of Neem Farms, were donated to restore degraded land, enhance greenery and promote a healthier ecosystem in Damaturu — improving air quality, preventing soil erosion and providing long-term environmental benefit.</p>"
+      },
+      {
+        "id": "p10",
+        "num": "10",
+        "title": "Networking for Progress: Yobe Delegates at TEDxBauchi 2025",
+        "tag": "Youth Development",
+        "tags": [
+          "Youth Development"
+        ],
+        "body": "<p>A delegation of young leaders from medicine, law, arts, education, technology and entrepreneurship took part in TEDxBauchi 2025, gaining practical insight and professional connections to bring back to their communities. The project was supported by the AIA Foundation, with the event funded by Dr Bala Wunti, founder of the Wunti Al-khair Foundation.</p>"
+      },
+      {
+        "id": "p11",
+        "num": "11",
+        "title": "Collaborative Educational Outreach in Yobe State",
+        "tag": "Education",
+        "tags": [
+          "Education",
+          "Humanitarian"
+        ],
+        "body": "<p>In partnership with AIA Foundation, Near Foundation, Nusret Educational and Cultural Co. Ltd, and the Centre for Humanitarian Impact and Development, Qur'ans, writing materials and food items were distributed to orphaned children across Yobe State.</p><p>A virtual mentorship session with Engr. Adamu Abdullahi — a Yobe indigene and Software & Functions Engineer at AVL GmbH, Germany — delivered \"The Culture of Excellence,\" encouraging discipline through four principles: <strong>Pray · Read · Play · Invest.</strong></p>"
+      },
+      {
+        "id": "p12",
+        "num": "12",
+        "title": "Pathway to Hope Community Outreach, Jakusko",
+        "tag": "Education",
+        "tags": [
+          "Education"
+        ],
+        "body": "<p>A pilot intervention in a Fulani community addressing out-of-school children and community resilience, delivered with the Near Foundation. Academics, medics, security personnel, educators and traditional leaders promoted school enrolment and health awareness, and food items and meat were distributed to over 300 community members. Read the full feature above.</p>"
+      },
+      {
+        "id": "p13",
+        "num": "13",
+        "title": "Stakeholder Engagement & Strategic Consultation",
+        "tag": "Partnership",
+        "tags": [
+          "Health",
+          "Humanitarian"
+        ],
+        "body": "<p>Ongoing advisory sessions with academics, traditional rulers, development partners and civil-society leaders to shape and refine future outreach — ensuring every project is designed with, not just for, the communities it serves.</p>"
+      }
+    ]
+  },
+  "gallery": {
+    "eyebrow": "04 — From the Field",
+    "heading": "Photographs from the outreach trail",
+    "images": [
+      {
+        "src": "gal-cows.jpg",
+        "alt": "Cattle facilitated by Near Foundation for the Community Care Outreach"
+      },
+      {
+        "src": "gal-officer-1.jpg",
+        "alt": "Field officer speaking to the community with a microphone"
+      },
+      {
+        "src": "gal-food-bag-boy.jpg",
+        "alt": "A child receiving a Near Foundation relief bag"
+      },
+      {
+        "src": "gal-boy-stick.jpg",
+        "alt": "A young boy at the community gathering"
+      },
+      {
+        "src": "gal-rice-bags.jpg",
+        "alt": "Bags of rice and food items prepared for distribution"
+      },
+      {
+        "src": "gal-banner-talk.jpg",
+        "alt": "Officers presenting an education advocacy banner reading Ku Nemi Ilimi Don Gobe"
+      },
+      {
+        "src": "gal-relief.jpg",
+        "alt": "An official handing a relief bag to a child, flanked by security personnel"
+      },
+      {
+        "src": "gal-officer-2.jpg",
+        "alt": "Senior Liaison Officer Umar Muhammad Danfulani at a field outreach"
+      }
+    ]
+  },
+  "team": {
+    "eyebrow": "05 — The Register of Staff",
+    "heading": "Project leads & office contacts",
+    "lede": "Thirteen projects, one coordinated office. Meet the people who plan, fund and deliver each outreach.",
+    "members": [
+      {
+        "name": "Umar, Muhammad Danfulani",
+        "suffix": "SDMSS",
+        "role": "Senior Liaison Officer to the Executive Governor of Yobe State on Community Outreach",
+        "phone": "",
+        "email": "",
+        "isLead": true,
+        "photo": "team-photo-umar.jpg"
+      },
+      {
+        "name": "Prof. Sulaiman Shuwa",
+        "suffix": "",
+        "role": "Education, Skills Development & School Outreach Adviser — Dept. of Chemical Engineering, ABU Zaria",
+        "phone": "",
+        "email": "",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Hassana Ibrahim Alkali, Esq.",
+        "suffix": "",
+        "role": "Legal Adviser",
+        "phone": "+2348027420653",
+        "email": "hasanaalkali@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Dr Abubakar Abdullahi",
+        "suffix": "",
+        "role": "Lead, Community Health & Humanitarian Medical Services",
+        "phone": "+2348035710007",
+        "email": "sodangi1995@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Jibril Yusuf",
+        "suffix": "",
+        "role": "Programs & Community Outreach Assistant",
+        "phone": "",
+        "email": "jibyat2@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Ibrahim Hassan Gimba",
+        "suffix": "",
+        "role": "Communications & Public Relations Officer",
+        "phone": "+2348108691323",
+        "email": "",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Abdullahi Kabiru Shehu",
+        "suffix": "",
+        "role": "Waste-to-Wealth Programme Adviser",
+        "phone": "+2348036350068",
+        "email": "kabiruaks@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Fatima Muhammad",
+        "suffix": "",
+        "role": "Women & Vulnerable Groups Outreach Officer",
+        "phone": "+2348135524188",
+        "email": "muhammadfatima060@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Ibrahim Idriss Fulatan",
+        "suffix": "",
+        "role": "Partnership, Policy Research & Strategic Development Officer",
+        "phone": "+2348122302756",
+        "email": "idrisbr042@gmail.com",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Edward Oluyemi",
+        "suffix": "",
+        "role": "Graphics Designer",
+        "phone": "+2348104456814",
+        "email": "",
+        "isLead": false,
+        "photo": ""
+      },
+      {
+        "name": "Yakubu Buba",
+        "suffix": "",
+        "role": "Digital Innovation Officer",
+        "phone": "+2347068415619",
+        "email": "bubayakubu@outlook.com",
+        "isLead": false,
+        "photo": ""
+      }
+    ]
+  },
+  "report": {
+    "eyebrow": "06 — The Full Record",
+    "heading": "Impact Beyond Office",
+    "lede": "A complete documentary of all 13 strategic community outreach projects under the Office of the Senior Liaison Officer to the Executive Governor of Yobe State, Hon. (Dr.) Mai Mala Buni, CON.",
+    "body": "Read the full field report — project by project, partner by partner, photograph by photograph.",
+    "linkLabel": "Read the report →",
+    "linkHref": "https://bit.ly/SlocoimpactReport2025",
+    "linkText": "bit.ly/SlocoimpactReport2025",
+    "image": "report-cover-2.jpg"
+  },
+  "partners": {
+    "label": "In strategic partnership with",
+    "items": [
+      "Near Foundation",
+      "AIA Foundation",
+      "Yobe SEMA",
+      "Nusret Educational & Cultural Co.",
+      "Federal University Gashua",
+      "Sahel Multi-links",
+      "LexNova Law Firm",
+      "Pinnacle Hive",
+      "Wunti Al-khair Foundation",
+      "BIORTC",
+      "Centre for Humanitarian Impact & Development"
+    ]
+  },
+  "contact": {
+    "eyebrow": "07 — Get Involved",
+    "heading": "Support the education of at least one child.",
+    "lede": "If every educated Nigerian commits to supporting one child, millions of vulnerable children can be guided toward productive futures. We welcome suggestions, partnerships, sponsorship and collaboration to expand these initiatives to more underserved communities across Yobe State and Nigeria.",
+    "email": "sloco.ysg@gmail.com",
+    "phones": [
+      "0708 966 9893",
+      "0806 851 0863"
+    ],
+    "website": "https://www.yobestate.gov.ng",
+    "websiteLabel": "yobestate.gov.ng"
+  },
+  "footer": {
+    "tagline": "Office of the Senior Liaison Officer to the Executive Governor of Yobe State on Community Outreach.",
+    "note": "Serving under the leadership of Hon. (Dr.) Mai Mala Buni, CON."
+  }
+}

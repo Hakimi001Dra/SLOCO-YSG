@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SLOCO&ndash;YSG &middot; Admin Dashboard</title>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+
+<!-- ============ LOGIN GATE ============ -->
+<div class="login-screen" id="loginScreen">
+  <div class="login-card">
+    <div class="login-mark">
+      <img src="logo-crop.png" alt="">
+    </div>
+    <p class="login-eyebrow">SLOCO&ndash;YSG &middot; Staff Only</p>
+    <h1>Admin Dashboard</h1>
+    <p class="login-copy">Enter the office passcode to edit the website&rsquo;s content &mdash; programs, team, gallery, stats and more.</p>
+    <form id="loginForm">
+      <input type="password" id="loginPassword" placeholder="Passcode" autocomplete="current-password" required>
+      <button type="submit" class="btn btn-primary btn-block btn-shine">Enter dashboard</button>
+      <p class="login-error" id="loginError"></p>
+    </form>
+    <p class="login-hint">Default passcode: <code>sloco2026</code> &mdash; this is a device-level lock for convenience, not secure authentication. See the <a href="#" id="showSecurityNote">note on how this works</a>.</p>
+  </div>
+</div>
+
+<!-- ============ SECURITY NOTE MODAL ============ -->
+<dialog id="securityDialog" class="app-dialog">
+  <h2>How this dashboard works</h2>
+  <p>This site is static (no server or database), so this dashboard edits content entirely in your browser:</p>
+  <ul>
+    <li><strong>Save changes</strong> stores your edits in this browser&rsquo;s local storage. The public site, opened in the <em>same browser</em>, will immediately reflect them &mdash; useful for reviewing before you publish.</li>
+    <li><strong>Export content.json</strong> downloads your edits as a file. Replace <code>content.json</code> in the website folder (or wherever it&rsquo;s deployed) with this file to make the changes live for every visitor.</li>
+    <li>The passcode screen prevents casual editing on a shared device; it is <strong>not</strong> real authentication. For multi-editor or public deployment, wire this dashboard to a real backend (e.g. a small API + database, or a service like Supabase/Firebase) &mdash; ask your developer to connect the same &ldquo;Save&rdquo; action to that instead of local storage.</li>
+  </ul>
+  <button class="btn btn-primary" id="closeSecurityDialog">Got it</button>
+</dialog>
+
+<!-- ============ APP SHELL ============ -->
+<div class="app-shell" id="appShell" hidden>
+
+  <aside class="app-sidebar">
+    <div class="sidebar-brand">
+      <img src="logo-crop.png" alt="">
+      <div>
+        <strong>SLOCO&ndash;YSG</strong>
+        <span>Admin Dashboard</span>
+      </div>
+    </div>
+    <nav class="sidebar-nav" id="sidebarNav"></nav>
+    <div class="sidebar-foot">
+      <a href="index.html" target="_blank" class="sidebar-view-site">View live site &rarr;</a>
+      <button class="sidebar-logout" id="logoutBtn">Log out</button>
+    </div>
+  </aside>
+
+  <div class="app-main">
+    <header class="app-topbar">
+      <div class="topbar-title">
+        <h1 id="panelTitle">Overview</h1>
+        <p id="panelSubtitle"></p>
+      </div>
+      <div class="topbar-actions">
+        <span class="dirty-pill" id="dirtyPill" hidden>Unsaved changes</span>
+        <button class="btn btn-outline" id="importBtn">Import JSON</button>
+        <input type="file" id="importFile" accept="application/json" hidden>
+        <button class="btn btn-outline" id="resetBtn">Reset to shipped</button>
+        <button class="btn btn-outline" id="exportBtn">Export content.json</button>
+        <button class="btn btn-primary btn-shine" id="saveBtn">Save changes</button>
+      </div>
+    </header>
+
+    <main class="app-panel" id="appPanel"></main>
+  </div>
+</div>
+
+<!-- ============ GENERIC ITEM MODAL ============ -->
+<dialog id="itemDialog" class="app-dialog item-dialog">
+  <form id="itemForm">
+    <h2 id="itemDialogTitle">Edit item</h2>
+    <div class="item-fields" id="itemFields"></div>
+    <div class="dialog-actions">
+      <button type="button" class="btn btn-outline" id="itemCancelBtn">Cancel</button>
+      <button type="submit" class="btn btn-primary">Save item</button>
+    </div>
+  </form>
+</dialog>
+
+<!-- ============ TOASTS ============ -->
+<div class="toast-stack" id="toastStack" aria-live="polite"></div>
+
+<script src="data-store.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
